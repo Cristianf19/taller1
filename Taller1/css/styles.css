@@ -1,0 +1,81 @@
+
+/*https://coolors.co/palette/22223b-4a4e69-9a8c98-c9ada7-f2e9e4*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p, label{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+body{
+    background-color: #4a4e69;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color: #9a8c98;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav{
+    height: 100px;
+    background-color: #22223b;
+    text-align: center;
+}
+
+#cont{
+    height: 700px;
+    background-color: #4a4e69;
+}
+
+#footer{
+    height: 150px;
+    background-color: #22223b;
+}
+
+.flechas{
+    color: aliceblue;
+}
+
+.btnn{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #F2E9E4;
+    height: 150px; 
+    width: 200px;
+    margin-bottom: 2rem;
+    border: solid ;
+    border-radius: 15px;
+    border-color: #F2E9E4;
+    background-color: #4a4e69;
+    animation: btn-aparece 3s;
+}
+
+@keyframes btn-aparece {
+    0%{opacity: 0%;};
+    100%{opacity: 100%;};
+}
+
+#left{
+    float: left;
+}
+
+#right{
+    float: right;
+}

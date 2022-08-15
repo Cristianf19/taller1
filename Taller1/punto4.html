@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Neonderthaw&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Taller 1</title>
+</head>
+<body>
+    <div id="nav">
+        <a href="index.html"><h1>TALLER 1</h1></a>
+        
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <br><br>
+                <h1>Punto 4</h1>
+                <p>
+                    <p>
+                        4.	Se requiere una página web que reciba los siguientes datos: código del estudiante, nombre del estudiante, 
+                            nombre de la materia y tres notas que deben de estar entre 0.0 y 5.0. Se debe calcular la nota definitiva 
+                            que corresponde al "promedio", el programa debe mostrar en pantalla el código del estudiante, nombre, 
+                            materia y el valor de la nota definitiva, si esta es >=4.0 escribir “APROBADO”, de lo contrario escribir 
+                            “REPROBADO” 
+                    </p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                
+            </div>
+            <div class="col-md-6">
+                <form action="PHP/php4.php" method="post">
+                    
+                    <div class="form-outline mb-4">
+                      <input type="text" name="cod_estud" id="form1Example1" class="form-control" placeholder="Código del estudiante" />
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <input type="text" name="nom_estud" id="form1Example1" class="form-control" placeholder="Nombre del estudiante" />
+                      </div>
+
+                    <div class="form-outline mb-4">
+                        <input type="text" name="nom_mat" id="form1Example1" class="form-control" placeholder="Nombre de la materia" />
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <input type="text" name="nota1" id="form1Example1" class="form-control" placeholder="Primer nota (0.0 - 5.0)" />
+                    </div>
+  
+                    <div class="form-outline mb-4">
+                        <input type="text" name="nota2" id="form1Example1" class="form-control" placeholder="Segunda nota (0.0 - 5.0)" />
+                    </div>
+  
+                    <div class="form-outline mb-4">
+                        <input type="text" name="nota3" id="form1Example1" class="form-control" placeholder="Tercer nota (0.0 - 5.0)" />
+                    </div>
+                  
+                    <button type="submit" name="boton_enviar" class="btn btn-primary btn-block">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-3">
+                
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <!--Botones navegacion-->
+    <div class="container fixed-bottom">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="punto3.html" id="left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                    </svg>
+                </a>
+            
+                <a href="punto5.html" id="right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
+                </a>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
